@@ -23,7 +23,14 @@
                                             <h2 class="mbr-section-title display-1">"BE YOUR OWN KIND OF BEAUTIFUL"</h2>
                                             <p class="mbr-section-lead lead">Jewelry has the power to be this one little thing that can make you feel unique.</p>
 
-                                            <div class="mbr-section-btn"><a class="btn btn-lg btn-white" href="rings.html">RINGS</a> <a class="btn btn-lg btn-white" href="bracelets.html">BRACELETS</a> <a class="btn btn-lg btn-white-outline btn-white" href="pendents.html">PENDENTS</a> <a class="btn btn-lg btn-white-outline btn-white" href="earrings.html">EARRINGS</a> <a class="btn btn-lg btn-white-outline btn-white" href="gems.html">GEMS</a> <a class="btn btn-lg btn-white-outline btn-white" href="nawarathna.html">NAWARATHNA</a></div>
+                                            <div class="mbr-section-btn">
+                                                <asp:HyperLink runat="server" ID="HyperLink1" NavigateUrl="Rings" class="btn btn-lg btn-white">RINGS</asp:HyperLink>
+                                                <a class="btn btn-lg btn-white" href="bracelets.html">BRACELETS</a>
+                                                <a class="btn btn-lg btn-white-outline btn-white" href="pendents.html">PENDENTS</a>
+                                                <asp:HyperLink runat="server" ID="HyperLink7" class="btn btn-lg btn-white-outline btn-white" NavigateUrl="Earing">EARRINGS</asp:HyperLink>
+                                                <asp:HyperLink runat="server" ID="HyperLink4" NavigateUrl="Gems" class="btn btn-lg btn-white-outline btn-white">GEMS</asp:HyperLink>
+                                                <asp:HyperLink runat="server" ID="HyperLink5" class="btn btn-lg btn-white-outline btn-white" NavigateUrl="Nawarathna">NAWARATHNA</asp:HyperLink>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -38,8 +45,14 @@
                                         <div class="col-md-8 col-md-offset-2 text-xs-center">
                                             <h2 class="mbr-section-title display-1">"BE YOUR OWN KIND OF BEAUTIFUL"</h2>
                                             <p class="mbr-section-lead lead">Jewelry has the power to be this one little thing that can make you feel unique.</p>
-
-                                            <div class="mbr-section-btn"><a class="btn btn-lg btn-white" href="rings.html">RINGS</a> <a class="btn btn-lg btn-white" href="bracelets.html">BRACELETS</a> <a class="btn btn-lg btn-white-outline btn-white" href="pendents.html">PENDENTS</a> <a class="btn btn-lg btn-white-outline btn-white" href="earrings.html">EARRINGS</a> <a class="btn btn-lg btn-white-outline btn-white" href="gems.html">GEMS</a> <a class="btn btn-lg btn-white-outline btn-white" href="nawarathna.html">NAWARATHNA</a></div>
+                                            <div class="mbr-section-btn">
+                                                <asp:HyperLink runat="server" ID="HyperLink2" NavigateUrl="Rings" class="btn btn-lg btn-white">RINGS</asp:HyperLink>
+                                                <a class="btn btn-lg btn-white" href="bracelets.html">BRACELETS</a>
+                                                <a class="btn btn-lg btn-white-outline btn-white" href="pendents.html">PENDENTS</a>
+                                                <asp:HyperLink runat="server" ID="HyperLink8" class="btn btn-lg btn-white-outline btn-white" NavigateUrl="Earing">EARRINGS</asp:HyperLink>
+                                                <asp:HyperLink runat="server" ID="HyperLink3" NavigateUrl="Gems" class="btn btn-lg btn-white-outline btn-white">GEMS</asp:HyperLink>
+                                                <asp:HyperLink runat="server" ID="HyperLink6" class="btn btn-lg btn-white-outline btn-white" NavigateUrl="Nawarathna">NAWARATHNA</asp:HyperLink>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -69,7 +82,8 @@
                 <div class="container">
                     <div class="card cart-block">
                         <div class="card-img">
-                            <img src="assets/images/intro1.jpg" class="card-img-top"></div>
+                            <img src="assets/images/intro1.jpg" class="card-img-top">
+                        </div>
                         <div class="card-block">
                             <h4 class="card-title">Gem Mining</h4>
 
@@ -83,7 +97,8 @@
                 <div class="container">
                     <div class="card cart-block">
                         <div class="card-img">
-                            <img src="assets/images/intro2.jpg" class="card-img-top"></div>
+                            <img src="assets/images/intro2.jpg" class="card-img-top">
+                        </div>
                         <div class="card-block">
                             <h4 class="card-title">Gem Cutting</h4>
 
@@ -97,7 +112,8 @@
                 <div class="container">
                     <div class="card cart-block">
                         <div class="card-img">
-                            <img src="assets/images/intro3.jpg" class="card-img-top"></div>
+                            <img src="assets/images/intro3.jpg" class="card-img-top">
+                        </div>
                         <div class="card-block">
                             <h4 class="card-title">Jewelry Designing</h4>
 
@@ -111,11 +127,13 @@
                 <div class="container">
                     <div class="card cart-block">
                         <div class="card-img">
-                            <img src="assets/images/intro4.jpg" class="card-img-top"></div>
+                            <img src="assets/images/intro4.jpg" class="card-img-top">
+                        </div>
                         <div class="card-block">
                             <h4 class="card-title">Jewelry Making</h4>
 
-                            <p class="card-text">The art of jewelry making dates back thousands of years, to a time when ancient civilizations crafted jewelry for personal adornment. Created to display gemstones, express faith, and signify social status.<br>
+                            <p class="card-text">
+                                The art of jewelry making dates back thousands of years, to a time when ancient civilizations crafted jewelry for personal adornment. Created to display gemstones, express faith, and signify social status.<br>
                             </p>
 
                         </div>
@@ -167,7 +185,8 @@
                             <div class="card-block"><em>“I just wanted to email you to tell you how much happy I am with my purchase and shopping experience. The silver cuff bracelets are so beautiful. I am in love with them! Super fast delivery in only 1 day! Thank you so much, I Will definitely order more very soon and recommend to my family and friends. Kind regards!”</em></div>
                             <div class="mbr-author card-footer">
                                 <div class="mbr-author-img">
-                                    <img src="assets/images/client1.jpg" class="img-circle"></div>
+                                    <img src="assets/images/client1.jpg" class="img-circle">
+                                </div>
                                 <div class="mbr-author-name">Ravishan</div>
                                 <small class="mbr-author-desc">User</small>
                             </div>
@@ -179,7 +198,8 @@
                             <div class="card-block"><em>“I just received my items and LOVE them! It is GORGEOUS!  The ring look even better on finger than in the pictures, are beautifully made and fit perfectly – Thank you! I will not hesitate to purchase more pieces and will certainly recommend them to my family and friends. Best regards from Colombo                              ”</em></div>
                             <div class="mbr-author card-footer">
                                 <div class="mbr-author-img">
-                                    <img src="assets/images/client2.jpg" class="img-circle"></div>
+                                    <img src="assets/images/client2.jpg" class="img-circle">
+                                </div>
                                 <div class="mbr-author-name">Mahanama</div>
                                 <small class="mbr-author-desc">User</small>
                             </div>
@@ -191,7 +211,8 @@
                             <div class="card-block"><em>“I wanted to take a minute and let you know how absolutely beautiful these Bracelet is! I received them on Saturday, and It is just fabulous! I love purchasing jewelry from Sapphire House, and finding unique and stunning items. These are a fabulous to add to my collection. Thank you so much for sharing your talent!”</em></div>
                             <div class="mbr-author card-footer">
                                 <div class="mbr-author-img">
-                                    <img src="assets/images/client3.jpg" class="img-circle"></div>
+                                    <img src="assets/images/client3.jpg" class="img-circle">
+                                </div>
                                 <div class="mbr-author-name">Sanju</div>
                                 <small class="mbr-author-desc">User</small>
                             </div>

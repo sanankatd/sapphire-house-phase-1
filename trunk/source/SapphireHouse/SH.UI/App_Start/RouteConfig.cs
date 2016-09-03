@@ -19,6 +19,24 @@ namespace SH.UI
                "Rings",
                "~/Rings.aspx"
            );
+
+            routes.MapPageRoute(
+               "Gems",
+               "Gems",
+               "~/Gems.aspx"
+           );
+
+            routes.MapPageRoute(
+              "Nawarathna",
+              "Nawarathna",
+              "~/Nawarathna.aspx"
+          );
+
+            routes.MapPageRoute(
+             "Earing",
+             "Earing",
+             "~/Earing.aspx"
+         );
         }
         public static void RegisterRoutes(RouteCollection routes)
         {            

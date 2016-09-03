@@ -6,7 +6,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>E:\sapphire-house-phase-1\trunk\source\Publish</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\SapphireHouse</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="About.aspx">
@@ -403,7 +403,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/28/2016 12:54:31</publishTime>
     </File>
     <File Include="bin/SH.UI.dll">
-      <publishTime>09/03/2016 11:48:31</publishTime>
+      <publishTime>09/03/2016 13:39:55</publishTime>
     </File>
     <File Include="bin/System.Net.Http.dll">
       <publishTime>08/28/2016 12:54:31</publishTime>
@@ -583,13 +583,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/28/2016 12:54:27</publishTime>
     </File>
     <File Include="Default.aspx">
-      <publishTime>09/03/2016 10:33:35</publishTime>
+      <publishTime>09/03/2016 13:40:33</publishTime>
     </File>
     <File Include="Default.Master">
       <publishTime>09/03/2016 11:44:25</publishTime>
     </File>
+    <File Include="Earing.aspx">
+      <publishTime>09/03/2016 13:35:40</publishTime>
+    </File>
     <File Include="favicon.ico">
       <publishTime>08/28/2016 12:53:47</publishTime>
+    </File>
+    <File Include="Gems.aspx">
+      <publishTime>09/03/2016 13:23:53</publishTime>
     </File>
     <File Include="Global.asax">
       <publishTime>08/28/2016 12:53:47</publishTime>
@@ -632,6 +638,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Images/orderedList9.png">
       <publishTime>08/28/2016 12:53:47</publishTime>
+    </File>
+    <File Include="Nawarathna.aspx">
+      <publishTime>09/03/2016 13:30:31</publishTime>
     </File>
     <File Include="packages.config">
       <publishTime>08/28/2016 12:54:47</publishTime>

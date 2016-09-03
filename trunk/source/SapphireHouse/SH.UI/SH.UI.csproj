@@ -275,6 +275,8 @@
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Earing.aspx" />
+    <Content Include="Gems.aspx" />
     <Content Include="Images\accent.png" />
     <Content Include="Images\bullet.png" />
     <Content Include="Images\heroAccent.png" />
@@ -290,6 +292,7 @@
     <Content Include="Images\orderedList9.png" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Nawarathna.aspx" />
     <Content Include="packages.config" />
     <Content Include="Default.Master" />
     <Content Include="Assets\bootstrap-material-design-font\fonts\Material-Design-Icons.eot" />
@@ -388,8 +391,29 @@
     <Compile Include="Default.Master.designer.cs">
       <DependentUpon>Default.Master</DependentUpon>
     </Compile>
+    <Compile Include="Earing.aspx.cs">
+      <DependentUpon>Earing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Earing.aspx.designer.cs">
+      <DependentUpon>Earing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gems.aspx.cs">
+      <DependentUpon>Gems.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gems.aspx.designer.cs">
+      <DependentUpon>Gems.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Nawarathna.aspx.cs">
+      <DependentUpon>Nawarathna.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nawarathna.aspx.designer.cs">
+      <DependentUpon>Nawarathna.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
