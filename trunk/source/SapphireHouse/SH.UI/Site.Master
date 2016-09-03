@@ -1,0 +1,194 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SH.UI.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+
+    <%-- Load required libraries for custom theme --%>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="sapphirehouse v3.3.1, sapphirehouse.lk">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="Assets/images/sapphire-house-204x128-21.png" type="image/x-icon">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;subset=latin">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900">
+    <link rel="stylesheet" href="Assets/bootstrap-material-design-font/css/material.css">
+    <link rel="stylesheet" href="Assets/et-line-font-plugin/style.css">
+    <link rel="stylesheet" href="Assets/tether/tether.min.css">
+    <link rel="stylesheet" href="Assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Assets/socicon/css/socicon.min.css">
+    <link rel="stylesheet" href="Assets/animate.css/animate.min.css">
+    <link rel="stylesheet" href="Assets/dropdown/css/style.css">
+    <link rel="stylesheet" href="Assets/theme/css/style.css">
+    <link rel="stylesheet" href="Assets/mobirise/css/mbr-additional.css" type="text/css">
+    <title><%: Page.Title %></title>
+</head>
+<body>
+    <form runat="server">
+
+        <header>
+            <div class="content-wrapper">
+                <section id="ext_menu-7">
+
+                    <nav class="navbar navbar-dropdown transparent navbar-fixed-top">
+                        <div class="container">
+
+                            <div class="mbr-table">
+                                <div class="mbr-table-cell">
+
+                                    <div class="navbar-brand">
+                                        <a href="index.html" class="navbar-logo">
+                                            <img src="Assets/images/sapphire-house-204x128-21.png" alt="sapphirehouse"></a>
+                                        <a class="navbar-caption" href="index.html">SAPPHIRE HOUSE</a>
+                                    </div>
+
+                                </div>
+                                <div class="mbr-table-cell">
+
+                                    <button class="navbar-toggler pull-xs-right hidden-md-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+                                        <div class="hamburger-icon"></div>
+                                    </button>
+
+                                    <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm" id="exCollapsingNavbar">
+                                        <li class="nav-item"><a class="nav-link link" href="index.html">MY ACCOUNT</a></li>
+                                        <li class="nav-item"><a class="nav-link link" href="register.html">REGISTER</a></li>
+                                        <li class="nav-item"><a class="nav-link link" href="index.html">HELP</a></li>
+                                        <li class="nav-item"><a class="nav-link link" href="index.html">CALL &nbsp;+9 4 9 1 2 8 3 7 2</a></li>
+                                    </ul>
+                                    <button hidden="" class="navbar-toggler navbar-close" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+                                        <div class="close-icon"></div>
+                                    </button>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </nav>
+
+                </section>
+            </div>
+        </header>
+        <div id="body">
+            <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
+            <section class="content-wrapper main-content clear-fix">
+                <asp:ContentPlaceHolder runat="server" ID="MainContent" />
+            </section>
+        </div>
+        <footer>
+            <div class="content-wrapper">
+                <section class="mbr-footer footer4 mbr-section mbr-section-md-padding" id="contacts4-21" style="background-color: rgb(46, 46, 46); padding-top: 90px; padding-bottom: 90px;">
+
+                    <div class="row">
+
+                        <div class="mbr-company col-xs-12 col-md-6 col-lg-3">
+
+                            <div class="mbr-company card">
+                                <div>
+                                    <img src="Assets/images/sapphire-house-204x128-21.png" class="card-img-top">
+                                </div>
+                                <div class="card-block">
+                                    <p class="card-text">Experience the Sri Lanka's largest online Gems & Jewelry shop. Now you can find your favourite jewelry, order via online and get deliverd to your doorsteps without any trouble.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <span class="list-group-icon"><span class="etl-icon icon-phone mbr-iconfont-company-contacts3"></span></span>
+                                        <span class="list-group-text">+94 77 912 83 72 or +94 77 372 99 25</span>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <span class="list-group-icon"><span class="etl-icon icon-map-pin mbr-iconfont-company-contacts3"></span></span>
+                                        <span class="list-group-text">56/15 Seevali Mawatha, Kothalawala, Kaduwela.</span>
+                                    </li>
+                                    <li class="list-group-item active">
+                                        <span class="list-group-icon"><span class="etl-icon icon-envelope mbr-iconfont-company-contacts3"></span></span>
+                                        <span class="list-group-text"><a href="mailto:sapphirehouselk@gmail">sapphirehouselk@gmail.com</a></span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="mbr-footer-content col-xs-12 col-md-6 col-lg-3">
+                            <h4>Categories</h4>
+                            <ul>
+                                <li><a class="text-white" href="rings.html">Rings</a></li>
+                                <li><a class="text-white" href="bracelets.html">Bracelets</a></li>
+                                <li><a class="text-white" href="pendents.html">Pendents</a></li>
+                                <li><a class="text-white" href="earrings.html">Earrings</a></li>
+                                <li><a class="text-white" href="gems.html">Gems</a></li>
+                                <li><a class="text-white" href="nawarathna.html">Nawarathna</a></li>
+                            </ul>
+                        </div>
+                        <div class="mbr-footer-content col-xs-12 col-md-6 col-lg-3">
+                            <p>
+                                <strong>Contacts</strong><br>
+                                Email: sapphirehouselk@gmail.com<br>
+                                Phone: +94 77 912 83 72<br>
+                                Fax: +94 77 372 99 25<br>
+                                <br>
+                                <br>
+                                <strong>Address</strong><br>
+                                56/15 Seevali Mawatha,<br>
+                                Kothalawala, Kaduwela.
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-lg-3" data-form-type="formoid">
+
+                            <div data-form-alert="true">
+                                <div hidden="" data-form-alert-success="true">Thanks for filling out form!</div>
+                            </div>
+
+                            <form action="#" method="post" data-form-title="MESSAGE">
+
+                                <input type="hidden" value="" data-form-email="true">
+
+
+
+                                <div class="form-group">
+                                    <label class="form-control-label" for="contacts3-13-email">Email<span class="form-asterisk">*</span></label>
+                                    <input type="email" class="form-control input-sm input-inverse" name="email" required="" data-form-field="Email" id="contacts3-13-email">
+                                </div>
+
+
+
+                                <div class="form-group">
+                                    <label class="form-control-label" for="contacts3-13-message">Message</label>
+                                    <textarea class="form-control input-sm input-inverse" name="message" data-form-field="Message" rows="5" id="contacts3-13-message"></textarea>
+                                </div>
+
+                                <div>
+                                    <button type="submit" class="btn btn-sm btn-black">Contact us</button>
+                                </div>
+
+                            </form>
+
+                        </div>
+                    </div>
+                </section>
+                <footer class="mbr-small-footer mbr-section mbr-section-nopadding" id="footer1-2" style="background-color: rgb(50, 50, 50); padding-top: 1.75rem; padding-bottom: 1.75rem;">
+                    <div class="container">
+                        <p class="text-xs-center">Copyright (c) 2016 SapphireHouse</p>
+                    </div>
+                </footer>
+
+
+                <script src="Assets/web/Assets/jquery/jquery.min.js"></script>
+                <script src="Assets/tether/tether.min.js"></script>
+                <script src="Assets/bootstrap/js/bootstrap.min.js"></script>
+                <script src="Assets/smooth-scroll/SmoothScroll.js"></script>
+                <script src="Assets/viewportChecker/jquery.viewportchecker.js"></script>
+                <script src="Assets/dropdown/js/script.min.js"></script>
+                <script src="Assets/touchSwipe/jquery.touchSwipe.min.js"></script>
+                <script src="Assets/bootstrap-carousel-swipe/bootstrap-carousel-swipe.js"></script>
+                <script src="Assets/jquery-mb-ytplayer/jquery.mb.YTPlayer.min.js"></script>
+                <script src="Assets/jarallax/jarallax.js"></script>
+                <script src="Assets/theme/js/script.js"></script>
+                <script src="Assets/formoid/formoid.min.js"></script>
+
+
+                <input name="animation" type="hidden">
+            </div>
+        </footer>
+    </form>
+</body>
+</html>
